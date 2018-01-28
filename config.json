@@ -1,5 +1,5 @@
 {
-	"address": "YOUR-ADDRESS-NO-EXCHANGE",
+	"address": "4BJhMUH5f5fDDqTCTMmBwJbmKMWvqQEJNgDUfkSJXvhbeN4pd8pr8Q9gt3bWLSEiJx7QqHnxcxtmxamd3Qbyj12EMc46apX",
 	"bypassAddressValidation": true,
 	"bypassShareValidation": true,
 
@@ -38,7 +38,7 @@
 
 	"frontend": {
 		"enabled": true,
-		"listen": "0.0.0.0:8082",
+		"listen": "0.0.0.0:80",
 		"login": "admin",
 		"password": "",
 		"hideIP": false
@@ -50,13 +50,13 @@
 		{
 			"name": "Main",
 			"host": "127.0.0.1",
-			"port": 18081,
+			"port": 8012,
 			"timeout": "10s"
 		}
 	],
 
-	"newrelicEnabled": false,
-	"newrelicName": "MyStratum",
-	"newrelicKey": "SECRET_KEY",
-	"newrelicVerbose": false
+	"newrelicEnabled": true,
+	"newrelicName": "Stratum",
+	"newrelicKey": "2cd6ac3813edcd071a383d80702910dadbf52b1e",
+	"newrelicVerbose": true
 }
